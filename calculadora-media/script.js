@@ -5,6 +5,18 @@ function calc(){
 
     let media = (nota1 + nota2)/2
 
-    document.getElementById("resposta").innerText = media;
+    res = ""
+
+    if (media >=7){
+        res = "Aprovado"
+    }
+    else if (media >=5 && media<6.9){
+        res = "Recuperacao"
+    }
+    else{
+        res = "Reprovado"
+    }
+
+    document.getElementById("resposta").innerText = `Sua media é ${media}, e sua situacao é ${res}`
 
 }
