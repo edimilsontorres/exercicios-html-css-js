@@ -5,7 +5,7 @@ function calc(){
 
     let media = (nota1 + nota2)/2
 
-    res = ""
+    let res = ""
 
     if (media >=7){
         res = "Aprovado"
