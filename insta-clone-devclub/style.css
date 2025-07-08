@@ -1,0 +1,89 @@
+*{                                          /* isso serve pra resetar as pre configs que o navegador coloca*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;   
+}
+
+body {
+    background-color: #FAFAFA;
+    width: 100vw;   /* viewport width & viewport height, para ocupar 100% da largura e altura*/
+    height: 100svh; /*svh, segundo o chatgpt se ajusta melhor a celulares */
+    display: flex;
+    align-items: center;
+    font-family: sans-serif;
+    justify-content: center;
+}
+
+.container-formulario {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #dbdbdb;
+    background-color: white; 
+    padding: 50px 40px 20px 40px; /* a ordem comeca de cima e vai pra direita, pra baixo e pra esquerda, tipo um relogio */
+    border-radius: 5px;
+    width: 350px;
+}
+
+.container-imagens {
+    position: relative;
+}
+
+.imagem-celular {
+    height: 520px;
+    position: absolute;
+    left: 149px;
+    top: 25px;
+    transition: opacity 2s;
+}
+
+.img-celular {
+    display: flex;
+    max-width: 445px;
+}
+
+.insta-logo {
+    margin-bottom: 20px;
+}
+
+input {
+    outline: none;
+    height: 36px;
+    border: 1px solid #dbdbdb;
+    border-radius: 3px;
+    padding-left: 5px;
+    margin-top: 10px;
+    color: #262626;
+    font-size: 12px;
+    background: #fafafa;
+}
+
+button {
+    background-color: #0095f6;
+    height: 30px;
+    border-radius: 3px;
+    border: none;
+    color: white;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.login-facebook {
+    color: #385185;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.forgot-password {
+    color: #385185;
+    text-align: center;
+    cursor: pointer;
+    font-size: 12px;
+    text-decoration: none;
+
+}
+
